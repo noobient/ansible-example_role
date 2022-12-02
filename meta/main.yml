@@ -1,0 +1,13 @@
+galaxy_info:
+  role_name: FIXME role_name
+  author: Viktor Berke
+  description: FIXME Do something
+  license: license (MIT)
+  min_ansible_version: 2.1
+  platforms:
+  - name: Ubuntu
+    versions:
+    - bionic
+  galaxy_tags: []
+
+dependencies: []
