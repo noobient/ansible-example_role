@@ -9,3 +9,4 @@ skip_list:
   - name # this is covered by yamllint with exceptions on include_role
   - risky-shell-pipe
   - schema[tasks] # TODO ansible-lint randomly complains, e.g. it/tftpd
+  - role-name
