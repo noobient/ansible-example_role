@@ -27,4 +27,4 @@ jobs:
         # warning, so suppress that, too.
         run: >
             docker run --rm -v ${{ github.workspace }}:/repo ${{ github.repository_owner }}-lint /bin/bash --login -c
-            "git config --global --add safe.directory /klf && yamllint --strict . && ansible-lint --strict"
+            "git config --global --add safe.directory /repo && yamllint --strict . && ansible-lint --strict"
