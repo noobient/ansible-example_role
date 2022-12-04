@@ -10,7 +10,7 @@ on: # yamllint disable-line rule:truthy
     branches: []
 
 env:
-  reponame: "{{ github.repository.split('/') | last }}"
+  reponame: ${{ github.repository.split('/') | last }}
 
 jobs:
   lint:
@@ -19,7 +19,7 @@ jobs:
       - name: Obtain sources
         uses: actions/checkout@v3
       - name: Build Docker image
-        run: docker build --tag $reponame-lint docker/lint
+        run: docker build --tag ${{ github.repository_owner }}-lint docker/lint
       - name: Lint sources
         # We need pip installed linter because packaged one ignores config file.
         # We need --login because pip installs to ~/.local/bin and that is added
