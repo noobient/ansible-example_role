@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: FIXME role_name
+  role_name: fixme_role_name
   author: Viktor Berke
   description: FIXME Do something
   license: license (MIT)
