@@ -33,5 +33,5 @@ jobs:
             docker run --rm -v ${{ github.workspace }}:/repo ${{ github.repository_owner }}-lint /bin/bash --login -c
             "git config --global --add safe.directory /repo &&
             yamllint --strict . &&
-            sed -i.orig '/^[[:space:]]*"role-name",$/d' /root/.local/lib/python3.11/site-packages/ansiblelint/config.py &&
+            sed -i.orig '/\"role-name\",$/d' /root/.local/lib/python3.11/site-packages/ansiblelint/config.py &&
             ansible-lint --strict"
