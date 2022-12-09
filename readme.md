@@ -1,14 +1,27 @@
-# Description
+# bviktor.example_role
+
+## Synopsys
 
 This role serves as a skeleton for other Ansible Galaxy roles.
 
-# Arguments
+## Parameters
 
 | Name | Required | Description |
 |---|---|---|
 | `msg` | yes | Message to be displayed |
 
-# Support
+## Examples
+
+```yml
+- include_role:
+    name: bviktor.example_role
+```
+
+## Return Values
+
+N/A
+
+## Support
 
 | Platform | Support | Status |
 |---|---|---|
