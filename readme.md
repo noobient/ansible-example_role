@@ -8,7 +8,7 @@ This role serves as a skeleton for other Ansible Galaxy roles.
 
 | Name | Required | Example | Description |
 |---|---|---|---|
-| `msg` | yes | `Hello world!` |  Message to be displayed |
+| `msg` | yes | `Hello world!` |  Message to be displayed. |
 
 ## Examples
 
