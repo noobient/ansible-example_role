@@ -6,9 +6,9 @@ This role serves as a skeleton for other Ansible Galaxy roles.
 
 ## Parameters
 
-| Name | Required | Description |
-|---|---|---|
-| `msg` | yes | Message to be displayed |
+| Name | Required | Example | Description |
+|---|---|---|---|
+| `msg` | yes | `Hello world!` |  Message to be displayed |
 
 ## Examples
 
