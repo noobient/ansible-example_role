@@ -14,7 +14,7 @@ This role serves as a skeleton for other Ansible Galaxy roles.
 
 ```yml
 - include_role:
-    name: bviktor.example_role
+    name: noobient.example_role
   vars:
     msg: 'Hello world!'
 ```
